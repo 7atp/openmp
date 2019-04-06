@@ -1,0 +1,30 @@
+
+=== Start: [2019/04/06 09:53:31] === 
+Analysis started...
+Result file: C:\Users\Asus\source\repos\openmp\openmp\My Inspector Results - openmp\r007ti3\r007ti3.inspxe 
+Found target process c:\users\asus\source\repos\openmp\x64\debug\openmp.exe (PID = 7932). Analysis started... 
+Loaded module: c:\users\asus\source\repos\openmp\x64\debug\openmp.exe. 
+Loaded module: c:\windows\system32\kernelbase.dll. 
+Loaded module: c:\windows\system32\kernel32.dll. 
+Loaded module: c:\windows\system32\ntdll.dll. 
+Loaded module: c:\windows\system32\vcomp140d.dll. 
+Warning: Inspector does not support the Microsoft OpenMP Runtime module and may report false positives. Refer to the product release notes. 
+Loaded module: c:\windows\system32\ucrtbased.dll. 
+Loaded module: c:\windows\system32\winmm.dll. 
+Loaded module: c:\windows\system32\vcruntime140d.dll. 
+Loaded module: c:\windows\system32\user32.dll. 
+Loaded module: c:\windows\system32\msvcrt.dll. 
+Loaded module: c:\windows\system32\winmmbase.dll. 
+Loaded module: c:\windows\system32\win32u.dll. 
+Loaded module: c:\windows\system32\winmmbase.dll. 
+Unloaded module: c:\windows\system32\winmmbase.dll. 
+Loaded module: c:\windows\system32\gdi32.dll. 
+Loaded module: c:\windows\system32\cfgmgr32.dll. 
+Loaded module: c:\windows\system32\gdi32full.dll. 
+Loaded module: c:\windows\system32\ucrtbase.dll. 
+Loaded module: c:\windows\system32\msvcp_win.dll. 
+Loaded module: c:\windows\system32\imm32.dll. 
+Application exit code: 0 
+Result file: C:\Users\Asus\source\repos\openmp\openmp\My Inspector Results - openmp\r007ti3\r007ti3.inspxe 
+Analysis completed
+=== End: [2019/04/06 09:53:40] === 

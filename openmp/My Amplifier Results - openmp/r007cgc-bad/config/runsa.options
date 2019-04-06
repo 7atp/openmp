@@ -1,0 +1,16 @@
+-r
+C:\Users\Asus\source\repos\openmp\openmp\My Amplifier Results - openmp\r007cgc
+--itt-config=frame
+--stack-stitching
+--data-limit-mb=1000
+--disk-space-limit=0
+--mrte-type=java,dotnet
+--event-config=CPU_CLK_UNHALTED.THREAD:sa=2600000,CPU_CLK_UNHALTED.REF_TSC:sa=2600000,INST_RETIRED.ANY:sa=2600000,CPU_CLK_UNHALTED.REF_XCLK:sa=100003,CPU_CLK_UNHALTED.ONE_THREAD_ACTIVE:sa=100003
+--event-config=UNC_IMC_DRAM_DATA_READS,UNC_IMC_DRAM_DATA_WRITES
+--platform-type=103
+--uncore-sampling-interval=10
+--mrte-mode=auto
+--stdsrc-config=cswitch
+--p-state-trigger=CPU_CLK_UNHALTED.REF_TSC
+--
+C:\Users\Asus\source\repos\openmp\x64\Debug\openmp.exe

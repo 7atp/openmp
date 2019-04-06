@@ -1,0 +1,23 @@
+
+=== Start: [2019/04/06 10:11:56] === 
+Analysis started...
+Result file: C:\Users\Asus\source\repos\openmp\openmp\My Inspector Results - openmp\r013ti3\r013ti3.inspxe 
+Found target process c:\users\asus\source\repos\openmp\x64\debug\openmp.exe (PID = 10268). Analysis started... 
+Loaded module: c:\users\asus\source\repos\openmp\x64\debug\openmp.exe. 
+Loaded module: c:\windows\system32\kernelbase.dll. 
+Loaded module: c:\windows\system32\kernel32.dll. 
+Loaded module: c:\windows\system32\ntdll.dll. 
+Loaded module: c:\windows\system32\ucrtbased.dll. 
+Loaded module: c:\windows\system32\winmm.dll. 
+Loaded module: c:\windows\system32\vcruntime140d.dll. 
+Loaded module: c:\windows\system32\winmmbase.dll. 
+Loaded module: c:\windows\system32\msvcrt.dll. 
+Loaded module: c:\windows\system32\msvcrt.dll. 
+Unloaded module: c:\windows\system32\msvcrt.dll. 
+Loaded module: c:\windows\system32\cfgmgr32.dll. 
+Loaded module: e:\software\ips installed\compilers_and_libraries_2019\windows\redist\intel64\compiler\libiomp5md.dll. 
+Loaded module: c:\windows\system32\ucrtbase.dll. 
+Application exit code: 0 
+Result file: C:\Users\Asus\source\repos\openmp\openmp\My Inspector Results - openmp\r013ti3\r013ti3.inspxe 
+Analysis completed
+=== End: [2019/04/06 10:12:07] === 
