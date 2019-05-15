@@ -32,16 +32,15 @@
      <launch type="pointer" type_id="dasID_cctrl2::ApplicationWorkload" ptr_type="dasID_cctrl2::IWorkload">
       <workload>
        <targetName>launch</targetName>
-       <enable_app_output_log type="bool">false</enable_app_output_log>
-       <project_id>{F4FD94E0-A096-4ECB-A5AE-ED92A9839CD5}</project_id>
        <launch_app.environment>PATH=E:\software\IPS Installed\compilers_and_libraries_2019\windows\redist\intel64\compiler;%PATH%&#13;
 PATH=E:\software\IPS Installed\compilers_and_libraries_2019\windows\redist\intel64\compiler;%PATH%</launch_app.environment>
+       <enable_app_output_log type="bool">false</enable_app_output_log>
+       <project_id>{F4FD94E0-A096-4ECB-A5AE-ED92A9839CD5}</project_id>
        <launch_app.app_to_launch>C:\Users\Asus\source\repos\openmp\x64\Debug\openmp.exe</launch_app.app_to_launch>
        <launch_app.working_folder>C:\Users\Asus\source\repos\openmp\openmp</launch_app.working_folder>
        <launch_app.environment_prepend>PATH=E:\software\IPS Installed\compilers_and_libraries_2019\windows\redist\intel64\compiler;</launch_app.environment_prepend>
        <use_app_dir_as_work_dir type="bool">false</use_app_dir_as_work_dir>
        <result_directory.path>C:\Users\Asus\source\repos\openmp\openmp\My Inspector Results - openmp\r@@@{at}</result_directory.path>
-       <exclude_modules type="bag"/>
        <search_directories>
         <item>
          <value>sym=C:\Users\Asus\source\repos\openmp\x64\Debug</value>
@@ -215,6 +214,7 @@ PATH=E:\software\IPS Installed\compilers_and_libraries_2019\windows\redist\intel
          <value>bin=C:/Users\Asus\source\repos\openmp\openmp\%USERPROFILE%\AppData\Local\Microsoft\WindowsApps</value>
         </item>
        </search_directories>
+       <exclude_modules type="bag"/>
        <context>
         <contextValue>
          <id>appdebug</id>

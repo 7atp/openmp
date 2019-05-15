@@ -123,7 +123,7 @@ PATH=E:\software\IPS Installed\compilers_and_libraries_2019\windows\redist\intel
    </workloads>
   </target_settings>
   <analysis_type_settings>
-   <selected_analysis_type_path>E:\software\IPS Installed\VTune Amplifier 2019\config\analysis_type\cpugpu_concurrency.cfg</selected_analysis_type_path>
+   <selected_analysis_type_path>E:\software\IPS Installed\VTune Amplifier 2019\config\analysis_type\threading_analysis.cfg</selected_analysis_type_path>
   </analysis_type_settings>
  </All_Configurations-All_Platforms>
  <contextValues type="bag"/>

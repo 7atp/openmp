@@ -8,7 +8,7 @@
 
 // Adds an additional library so that timeGetTime() can be used
 #pragma comment(lib, "winmm.lib")
-const long int VERYBIG = 10000;
+const long int VERYBIG = 100000;
 // ***********************************************************************
 int main(void)
 {
@@ -29,11 +29,12 @@ int main(void)
 		total = 0.0;
 		// Work Loop, do some work by looping VERYBIG times
 		omp_set_num_threads(8);
-		#pragma omp parallel for  private( sumx, sumy, k ) reduction( +: sum, total ) 
+		#pragma omp parallel for private( sumx, sumy, k ) reduction( +: sum,total ) schedule(dynamic, 2000 ) 
 		for (j = 0; j<VERYBIG; j++)
 		{
 			// increment check sum
-			sum += 1;
+#			
+			sum++;
 			// Calculate first arithmetic series
 			sumx = 0.0;
 			for (k = 0; k<j; k++)
